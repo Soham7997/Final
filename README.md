@@ -32,6 +32,16 @@ pip install -r requirements.txt
 (Note: This installs the stable "Golden Stack": NumPy < 2.0, MediaPipe 0.10.21, and OpenCV < 4.10)
 
 ⚡ How to Run
+
+Option 1- 
+using simultaneous execution:
+Write this command in the terminal:
+```bash 
+Start-Process python server.py; Start-Process python run_dev.py
+```
+
+Option 2:
+Running both the servers on different terminals
 Terminal 1 (Main Website):
 ```bash
 conda activate body_tracking
