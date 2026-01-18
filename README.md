@@ -47,23 +47,23 @@ python run_dev.py
 🎮 Usage Guide
 Open your browser and go to: http://localhost:5000
 
-Login to the dashboard.
-Choose a Module:
-Object Detection: Runs on Port 5000.
-Gender Detection: Runs on Port 5000.
-Body Tracking: When you click this, the system automatically redirects you to the high-performance node at http://localhost:8000.
+*Login to the dashboard.
+*Choose a Module:
+*Object Detection: Runs on Port 5000.
+*Gender Detection: Runs on Port 5000.
+*Body Tracking: When you click this, the system automatically redirects you to the high-performance node at http://localhost:8000.
 
 🔧 Troubleshooting
-"MediaPipe not available" / Missing 'solutions' module:
-Ensure you are using Python 3.11 (not 3.13).
-Ensure you installed mediapipe==0.10.21.
-Ensure you have the Visual C++ Redistributables installed.
-"Address already in use" error:
-Another program is using Port 5000 or 8000.
-Fix: Close other python windows or run taskkill /F /IM python.exe in the terminal to kill old processes.
+*"MediaPipe not available" / Missing 'solutions' module:
+*Ensure you are using Python 3.11 (not 3.13).
+*Ensure you installed mediapipe==0.10.21.
+*Ensure you have the Visual C++ Redistributables installed.
+*"Address already in use" error:
+*Another program is using Port 5000 or 8000.
+*Fix: Close other python windows or run taskkill /F /IM python.exe in the terminal to kill old processes.
 
 📦 Tech Stack
-Backend: Flask (Web), FastAPI (AI Service)
-AI/ML: MediaPipe, YOLOv8, PyTorch
-Computer Vision: OpenCV
-Frontend: HTML5, CSS3, JavaScript
+*Backend: Flask (Web), FastAPI (AI Service)
+*AI/ML: MediaPipe, YOLOv8, PyTorch
+*Computer Vision: OpenCV
+*Frontend: HTML5, CSS3, JavaScript
