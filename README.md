@@ -32,10 +32,6 @@ pip install -r requirements.txt
 (Note: This installs the stable "Golden Stack": NumPy < 2.0, MediaPipe 0.10.21, and OpenCV < 4.10)
 
 ⚡ How to Run
-On Windows: Double-click start_all.bat OR run in terminal:
-
-If you need to see logs for each server separately, open two terminal windows:
-
 Terminal 1 (Main Website):
 ```bash
 conda activate body_tracking
