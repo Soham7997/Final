@@ -1,0 +1,30 @@
+# --- Core Stability Constraints (DO NOT CHANGE) ---
+# These specific versions prevent conflicts between MediaPipe, OpenCV, and the ML model.
+numpy<2.0.0
+mediapipe==0.10.21
+opencv-python<4.10.0
+scikit-learn==1.6.1
+
+# --- Deep Learning & Object Detection ---
+torch
+torchvision
+ultralytics
+
+# --- Web Frameworks & API ---
+fastapi>=0.95.0
+uvicorn>=0.15.0
+websockets>=11.0.0
+flask
+flask-cors
+python-multipart>=0.0.6
+
+# --- Data Processing & Cloud ---
+pandas>=1.3.0
+joblib>=1.0.0
+matplotlib>=3.5.0
+boto3
+botocore
+
+# --- Windows Support ---
+# Ensures C++ runtime DLLs are present for MediaPipe
+msvc-runtime

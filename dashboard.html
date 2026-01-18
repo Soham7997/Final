@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Drone Tech AI Portal — Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-wrap dashboard-wrap">
+    <header class="site-header">
+      <div class="container">
+        <div class="logo">Drone Tech AI Portal</div>
+        <div class="header-right">
+          <div class="user-bubble" id="headerUser">DT</div>
+          <button class="btn ghost" id="logoutBtn">Log out</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- logout box removed per request -->
+
+    <main class="container">
+      <section class="greeting fade-in">
+        <h1 id="greet">Welcome, user@example.com</h1>
+        <h2 class="muted sub">Select a module to begin — Object Detection, Male-Female Detection, or Body Tracking.</h2>
+      </section>
+
+        <div id="notificationBar" class="notification-bar" aria-live="polite" role="status"></div>
+
+        <section class="cards">
+          <article class="card func-card fade-in" data-module="object">
+            <h3 class="module-title">Object Detection <span class="tick" aria-hidden="true">✓</span></h3>
+            <p class="muted small">Real-time identification of objects in camera feed.</p>
+            <div class="card-actions">
+              <button class="btn shiny disabled" data-action="open" data-module="object" disabled>Open</button>
+              <button class="btn secondary" data-action="subscribe" data-module="object">Subscribe</button>
+            </div>
+          </article>
+
+          <article class="card func-card fade-in" data-module="gender">
+            <h3 class="module-title">Male-Female Detection <span class="tick" aria-hidden="true">✓</span></h3>
+            <p class="muted small">(Placeholder) Classification module — use with caution and consent.</p>
+            <div class="card-actions">
+              <button class="btn shiny disabled" data-action="open" data-module="gender" disabled>Open</button>
+              <button class="btn secondary" data-action="subscribe" data-module="gender">Subscribe</button>
+            </div>
+          </article>
+
+          <article class="card func-card fade-in" data-module="body">
+            <h3 class="module-title">Body Tracking <span class="tick" aria-hidden="true">✓</span></h3>
+            <p class="muted small">Pose estimation and tracking for pilots and ground personnel.</p>
+            <div class="card-actions">
+              <button class="btn shiny disabled" data-action="open" data-module="body" disabled>Open</button>
+              <button class="btn secondary" data-action="subscribe" data-module="body">Subscribe</button>
+            </div>
+          </article>
+        </section>
+
+    </main>
+
+    <footer class="site-foot muted">© Drone Tech • Demo UI</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

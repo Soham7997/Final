@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Drone Tech AI Portal — Access</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="site-header">
+      <div class="container">
+        <div class="logo">Drone Tech AI Portal</div>
+        <div class="top-actions">
+          <button class="btn ghost" id="signInBtn">Sign In</button>
+          <button class="btn primary" id="logInBtn">Log In</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container center">
+      <section class="login-panel card fade-in">
+        <div class="login-left">
+          <h1>Drone Tech</h1>
+          <p class="muted">Secure access to the Drone Tech AI Portal. Please Log In to continue.</p>
+          <div class="auth-intro">
+            <p class="muted small">Click "Log In" to open the secure login form.</p>
+          </div>
+          <form id="loginForm" class="login-form hidden">
+            <label class="field">
+              <span class="label">Name</span>
+              <input id="name" name="name" required placeholder="Full name" />
+            </label>
+            <label class="field">
+              <span class="label">Email</span>
+              <input id="email" name="email" type="email" placeholder="you@example.com" />
+            </label>
+            <label class="field">
+              <span class="label">Password</span>
+              <input id="password" name="password" type="password" required placeholder="Password" />
+            </label>
+            <div class="actions">
+              <button class="btn primary" type="submit">Log In</button>
+              <button class="btn ghost" type="button" id="cancelLogin">Cancel</button>
+            </div>
+          </form>
+        </div>
+        <div class="login-right">
+          <div class="emblem">✪</div>
+          <h3>AI • Vision • Flight</h3>
+          <p class="muted small">A lightweight pilot console UI — demo only.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-foot muted">
+      © Drone Tech • Demo Interface
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
