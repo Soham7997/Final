@@ -55,6 +55,7 @@ Open your browser and go to: http://localhost:5000
 
 🔧 Troubleshooting
 *"MediaPipe not available" / Missing 'solutions' module:
+
 *Ensure you are using Python 3.11 (not 3.13).
 *Ensure you installed mediapipe==0.10.21.
 *Ensure you have the Visual C++ Redistributables installed.
