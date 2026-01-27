@@ -5,6 +5,11 @@ mediapipe==0.10.21
 opencv-python<4.10.0
 scikit-learn==1.6.1
 
+# --- Emotion Recognition (DeepFace) ---
+# Added for the new facial emotion analysis features
+deepface
+tensorflow
+
 # --- Deep Learning & Object Detection ---
 torch
 torchvision
