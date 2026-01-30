@@ -28,13 +28,19 @@
       <section class="card fade-in" id="moduleCard">
         <h3>Male-Female Detection Controls</h3>
         <p class="muted small">Choose real-time camera or local file input.</p>
+
         <div class="card-actions">
           <button class="btn shiny" id="realtimeBtn">Real-time (Camera)</button>
           <button class="btn shiny" id="localBtn">Local Machine (File)</button>
           <input type="file" id="fileInput" class="hidden" accept="image/*,video/*" />
           <button class="btn primary" id="runBtn">Run</button>
         </div>
+
         <div id="preview" style="margin-top:12px"></div>
+
+        <!-- NOTE:
+             The detections table is injected by module.js right after #preview
+             (keeps your original structure intact). -->
       </section>
 
     </main>
